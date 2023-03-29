@@ -1,5 +1,5 @@
 # Stable Diffusion Implementation - Text to Image
-***Text to Image*** app with ***Stable Diffusion Pipeline*** and ***Tkinter*** as its UI.
+***Text to Image*** app with ***Stable Diffusion Pipeline*** and ***CustomTkinter*** as its UI.
 
 Source :
 1. Stable Diffusion App - [Github](https://github.com/nicknochnack/StableDiffusionApp), [HuggingFace](https://huggingface.co/CompVis/stable-diffusion-v1-4)
@@ -31,3 +31,14 @@ pipenv install -r path/to/requirements.txt
 ```python
 python app.py
 ```
+
+
+Generated image samples:
+1. Duck Skiing
+<img src="./generated_images/duck_skiing.png" alt="Duck Skiing" style="width:400px;"/>
+<br>
+2. Rabbit Astronaut
+<img src="./generated_images/rabbit_astronaut.png" alt="Rabbit Astronaut" style="width:400px;"/>
+<br>
+3. Erupting Volcano on Mars
+<img src="./generated_images/erupting_volcano_on_mars.png" alt="Erupting Volcano on Mars" style="width:400px;"/>

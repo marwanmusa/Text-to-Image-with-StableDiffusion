@@ -33,7 +33,7 @@ def generate():
         image = pipe(str(prompt.get())).images[0]
 
     image.save('generatedimage.png')
-    img = ImageTk.PhotoImage(image)
+    img = ctk.CTkImage(image, size=(512, 512))
     lmain.configure(image=img)
 
 # Button to generate
