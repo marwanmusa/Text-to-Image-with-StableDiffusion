@@ -25,7 +25,11 @@ pip install -r path/to/requirements.txt
 ```
 or if you are using pipenv, then
 ```python
-pipenv install -r path/to/requirements.txt
+pipenv install
+```
+if `pipenv` not installed yet, just
+```python
+pip install pipenv
 ```
 5. Run `app.py`
 ```python
