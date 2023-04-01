@@ -4,6 +4,13 @@ verify_ssl = false
 name = "pip_conf_index_global"
 
 [packages]
+accelerate = "*"
+tk = "*"
+customtkinter = "*"
+pillow = "*"
+diffusers = "*"
+numpy = "*"
+transformers = "*"
 
 [dev-packages]
 
