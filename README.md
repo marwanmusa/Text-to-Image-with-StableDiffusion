@@ -46,3 +46,7 @@ Generated image samples:
 <br>
 3. Erupting Volcano on Mars
 <img src="./generated_images/erupting_volcano_on_mars.png" alt="Erupting Volcano on Mars" style="width:400px;"/>
+
+
+> **Note** <br>
+> You need to adjust your [torch](https://pytorch.org/) installation version to match with your [cuda toolkit](https://developer.nvidia.com/cuda-toolkit) version installed.
